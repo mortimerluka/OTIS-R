@@ -9,7 +9,7 @@ This repository contains
 - the readily compiled model for iOS (/compiled model (mac)), compiled and tested on an M1 Pro processor under macOS 14 Sonoma
 - the readily compiled model for Windows (/compiled model (PC))
 
-Alongside the compiled model, the model folders contain the input files that provide the input parameters for the general model set up and solute (PARAMS.INP) and the flow (Q.INP).
+Alongside the compiled model, the model folders contain the input files that provide the input parameters for the general model set up and solute (PARAMS.INP), the flow (Q.INP) and the input/output files (control.inp).
 
 
 
