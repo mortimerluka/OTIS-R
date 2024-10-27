@@ -8,8 +8,7 @@ This repository contains
 - the source code of the model written in FORTRAN 77 (/FORTRAN source code)
 - the readily compiled model for iOS (/compiled model (mac)), compiled and tested on an M1 Pro processor under macOS 14 Sonoma
 - the readily compiled model for Windows (/compiled model (PC))
-
-Alongside the compiled model, the model folders contain the input files that provide the input parameters for the general model set up and solute (PARAMS.INP), the flow (Q.INP) and the input/output files (control.inp).
+- the input files providing the model parameters (/input files)
 
 
 
