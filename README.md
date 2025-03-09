@@ -9,6 +9,7 @@ This repository contains
 - the readily compiled model for iOS (/compiled model (mac)), compiled and tested on an M1 Pro processor under macOS 14 Sonoma
 - the readily compiled model for Windows (/compiled model (PC))
 - the input files providing the model parameters (/input files)
+- the derivation of the numerical solution of the OTIS-R model (/Numerik.pdf)
 
 
 
