@@ -10,7 +10,7 @@ This repository contains
 - the readily compiled model for Windows (/compiled model (PC))
 - the input files providing the model parameters (/input files)
 - the Matlab Code to calibrate the model for sodium chloride and radon (/calibration), which is modified after<sup>2</sup>
-- the derivation of the numerical solution of the OTIS-R model (/Numerik.pdf)
+- the derivation of the numerical solution of the OTIS-R model (/OTISR_numerical_solution.pdf)
 
 ## How to conduct the model calibration
 The calibration routine is written in Matlab and split in three parts: the data preprocessing to obtain sodium chloride input breakthrough curves and radon values along the stream (/calibration/data preprocessing), the calibration assuming only inflow into the stream (calibration/inflow only) and the calibration assuming inflow into and outflow from the stream (/calibration/inflow and outflow).
