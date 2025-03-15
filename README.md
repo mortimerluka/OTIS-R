@@ -42,7 +42,7 @@ The folder contains the Matlab files
 - OTIS_run_R_Qfix.m
 - OTIS_run_R.m
 
-Load all files into the same folder along with the files created in the preprocessing (NaCL_BTCs and Rn_data.mat), the model for your operating system (otisrv3.out (mac) or otisrv3.exe (PC)) and the input files for the model from the folder /input files. Run BTC_analysis.m to run the calibration routine.
+Load all files into the same folder along with the files created in the preprocessing (NaCL_BTCs and Rn_data.mat), the model for your operating system (otisrv3.out (mac) or otisr_v3.exe (PC)) and the input files for the model from the folder /input files. Run BTC_analysis.m to run the calibration routine.
 
 The output is stored in the folder 'Output_files_OTISR', which contains the output files:
 - LHS_samling.mat
