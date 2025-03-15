@@ -69,5 +69,5 @@ Proceed as described above under 'Calibration assuming no outflow from the strea
 
 ## References
 1 Runkel, R. (1998), 'One-dimensional transport with inflow and storage (otis): A solute transport
-model for streams and rivers', U.S. Geol. Surv. Water Resour. Invest. Rep. 98–4018.
+model for streams and rivers', U.S. Geol. Surv. Water Resour. Invest. Rep. 98–4018.\n
 2 Bonanno, E. (2022), 'BTC_analysis: GLaDY - GLobal and DYynamic identifiability analysis - BTC application (SoluteTransport)', Zenodo, https://doi.org/10.5281/zenodo.7381262
