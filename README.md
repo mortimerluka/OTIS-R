@@ -10,6 +10,7 @@ This repository contains
 - the readily compiled model for Windows (/compiled model (PC))
 - the input files providing the model parameters (/input files)
 - the Matlab Code to calibrate the model for sodium chloride and radon (/calibration), which is modified after<sup>2</sup>
+- the Matlab Code to create Plots from th ecalibration results (/Plots)
 - the derivation of the numerical solution of the OTIS-R model (/OTISR_numerical_solution.pdf)
 
 ## How to conduct the model calibration
@@ -65,7 +66,8 @@ The folder contains the Matlab files
 
 Proceed as described above under 'Calibration assuming no outflow from the stream'.
 
-
+## How to create plots
+Load all files from the folder /Plots into the same folder along with the calibration results ('R1Output_files_OTISR', ..., 'R5Output_files_OTISR') and run the file 'Plot.m'.
 
 ## References
 1 Runkel, R. (1998), 'One-dimensional transport with inflow and storage (otis): A solute transport
