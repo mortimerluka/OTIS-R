@@ -19,6 +19,8 @@ The calibration routine is written in Matlab and split in three parts: the data 
 ### Data preprocessing
 The folder contains the Matlab files
 - NaCl_conversion.m
+- ParamEst_BTC_hour.m
+- ParamEst_BTC_second.m
 - Rn_conversion.m
 
 and the example data files
