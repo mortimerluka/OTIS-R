@@ -34,7 +34,7 @@ and the example data files
 Load all Matlab and data files into the same folder. Insert your measured sodium chloride concentrations into the Excel files (e.g., Reach 1.xlsx). Open the Matlab file "NaCl_conversion.mat" and run the code. The code will generate matrices (e.g., NaClReach1.mat) containing the preprocessed data required for calibration. Similarly, open the file "Rn_conversion.m" to preprocess radon activities. Adapt these Matlab Files according to your study design and settings. To run the OTIS-R calibration, select one of the two assumptions and open the corresponding folder after data preprocessing.
 
 ### Calibration assuming only lateral groundwater inflow
-The folder contains the following Matlab files:
+The folder contains the following files:
 - behavioral.m
 - BTC_analysis.m
 - LHS_sampling.m
@@ -45,8 +45,12 @@ The folder contains the following Matlab files:
 - OTIS_run_N.m
 - OTIS_run_R_Qfix.m
 - OTIS_run_R.m
+- params_N.template
+- params_R.template
+- q_N.template
+- q_R.template
 
-Load all files into the same folder along with the folder containing the preprocessing results for chloride (NaCl_BTCs) and the preprocessing results for radon (Rn_data.mat). Copy the compiled version of OTIS-R for your operating system (otisrv3.out (mac) or otisr_v3.exe (PC)) from the respective folder (either “compiled model (mac)” or “compiled model (PC)” into the same folder. Additionally, copy the input files from the folder “input files” into the same folder. Run the Matlab code “BTC_analysis.m” to start the calibration routine.The Matlab code will create  a folder called 'Output_files_OTISR', which contains the output files:
+Load all files into the same folder along with the folder containing the preprocessing results for chloride (NaCl_BTCs) and the preprocessing results for radon (Rn_data.mat). Copy the compiled version of OTIS-R for your operating system (otisrv3.out (mac) or otisr_v3.exe (PC)) from the respective folder (either “compiled model (mac)” or “compiled model (PC)” into the same folder. Run the Matlab code “BTC_analysis.m” to start the calibration routine.The Matlab code will create  a folder called 'Output_files_OTISR', which contains the output files:
 
 - LHS_samling.mat
 - OTIS_results_MC.mat
@@ -56,7 +60,7 @@ Load all files into the same folder along with the folder containing the preproc
 The file 'OTIS_results.mat' contains the final calibration output and can be used for plotting.
 
 ### Calibration assuming inflow and outflow
-The folder contains the following Matlab files:
+The folder contains the following files:
 - behavioral.m
 - BTC_analysis.m
 - LHS_sampling.m
@@ -65,6 +69,10 @@ The folder contains the following Matlab files:
 - OTIS_MonteCarlo.m
 - OTIS_run_N.m
 - OTIS_run_R.m
+- params_N.template
+- params_R.template
+- q_N.template
+- q_R.template
 
 Proceed as described above under 'Calibration assuming  only lateral groundwater inflow’.
 
