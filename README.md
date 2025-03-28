@@ -1,5 +1,8 @@
 # OTIS-R
 
+## Contact
+Please contact cglaser@uni-bonn.de for any questions.
+
 ## One-Dimensional Transport with Inflow and Storage to Simulate Radon Activity (OTIS-R).
 OTIS-R is a modified version of the transient storage model OTIS<sup>1</sup> to simulate radon activity in streams. OTIS-R simulates one dimensional solute transport in streams including advection, dispersion, lateral inflow and exchange with a transient storage zone. Additional radon-specific processes considered in OTIS-R include decay in the stream as well as the storage zone, production in the storage zone and gas exchange between the stream and the atmosphere.
 
