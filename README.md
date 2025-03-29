@@ -82,7 +82,7 @@ The folder contains the following files:
 Proceed as described above under 'Calibration assuming  only lateral groundwater inflow’.
 
 ## How to create plots
-Load all files from the folder /Plots into the same folder along with the calibration results ('R1Output_files_OTISR', ..., 'R5Output_files_OTISR') and run the file 'Plot.m'.
+Load all files from the folder /Plots into the same folder along with the calibration results from BOTH calibration routines ('R1Output_files_OTISR', 'R1Output_files_OTISR_Outflow', ..., 'R5Output_files_OTISR') and run the file 'Plot.m'.
 
 ## References
 1 Runkel, R. (1998), 'One-dimensional transport with inflow and storage (OTIS): A solute transport
