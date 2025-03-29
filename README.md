@@ -34,7 +34,7 @@ and the example data files
 - Reach_4.m
 - Reach_5.m
 
-Load all Matlab and data files into the same folder. Insert your measured sodium chloride concentrations into the Excel files (e.g., Reach 1.xlsx). Open the Matlab file "NaCl_conversion.mat" and run the code. The code will generate matrices (e.g., NaClReach1.mat) containing the preprocessed data required for calibration. Similarly, open the file "Rn_conversion.m" to preprocess radon activities. Adapt these Matlab Files according to your study design and settings. To run the OTIS-R calibration, select one of the two assumptions and open the corresponding folder after data preprocessing.
+Load all Matlab and data files into the same folder. Insert your measured sodium chloride concentrations into the Excel files (e.g., Reach 1.xlsx). Open the Matlab file "NaCl_conversion.m" and run the code. The code will generate matrices (e.g., NaClReach1.mat) containing the preprocessed data required for calibration. Similarly, open the file "Rn_conversion.m" to preprocess radon activities. Adapt these Matlab Files according to your study design and settings. To run the OTIS-R calibration, select one of the two assumptions and open the corresponding folder after data preprocessing.
 
 ### Calibration assuming only lateral groundwater inflow
 The folder contains the following files:
