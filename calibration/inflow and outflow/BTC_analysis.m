@@ -93,9 +93,9 @@ behavioral(OTIS_hypercube_input,...
     Description1,Data,Instate,OOO,L,n,...
     NaCl_up,NaCl_down,Rn_up,Rn_down,Rn_down_95CI);
 toc
-%% rename folder for reach 5
+%% rename folder for reach 1
 
-movefile Output_files_OTISR R1Output_files_OTISR_Outflow_narrowAH
+movefile Output_files_OTISR R1Output_files_OTISR_Outflow
 
 
 
