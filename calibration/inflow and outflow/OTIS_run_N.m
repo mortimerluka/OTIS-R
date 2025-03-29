@@ -124,7 +124,7 @@ fclose(discharge);
 
     %FOR A PC
     if OSFLAG==1
-        !OTIS.EXE
+        !otisr_v3.exe
     end
 
     %FOR A UNIX/LINUX
