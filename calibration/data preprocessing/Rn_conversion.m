@@ -38,5 +38,5 @@ Rn4_95CI = Rn4*CI95;
 Rn5_95CI = Rn5*CI95;
 
 %% save all mean and 95% CI
-% save([pwd,'/Radon_data.mat'],'Rn_GW_mean','Rn1','Rn2','Rn3','Rn4','Rn5','Rn6',...
-    % 'Rn1_95CI','Rn2_95CI','Rn3_95CI','Rn4_95CI','Rn5_95CI','Rn6_95CI');
+save([pwd,'/Radon_data.mat'],'Rn_GW_mean','Rn1','Rn2','Rn3','Rn4','Rn5','Rn6',...
+    'Rn1_95CI','Rn2_95CI','Rn3_95CI','Rn4_95CI','Rn5_95CI','Rn6_95CI');
