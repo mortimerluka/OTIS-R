@@ -54,7 +54,7 @@ The folder contains the following files:
 - q_R.template
 - control.inp
 
-Load all files into the same folder along with the folder containing the preprocessing results for chloride (NaCl_BTCs) and the preprocessing results for radon (Rn_data.mat). Copy the compiled version of OTIS-R for your operating system (otisrv3.out (mac) or otisr_v3.exe (PC)) from the respective folder (either “compiled model (mac)” or “compiled model (PC)” into the same folder. Run the Matlab code “BTC_analysis.m” to start the calibration routine.The Matlab code will create  a folder called 'Output_files_OTISR', which contains the output files:
+Load all files into the same folder along with the folder containing the preprocessing results for chloride (NaCl_BTCs) and the preprocessing results for radon (Rn_data.mat). Copy the compiled version of OTIS-R for your operating system (otisrv3.out (mac) or otisr_v3.exe (PC)) from the respective folder (either “compiled model (mac)” or “compiled model (PC))” into the same folder. Run the Matlab code “BTC_analysis.m” to start the calibration routine.The Matlab code will create  a folder called 'Output_files_OTISR', which contains the output files:
 
 - LHS_samling.mat
 - OTIS_results_MC.mat
