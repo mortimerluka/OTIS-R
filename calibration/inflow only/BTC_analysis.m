@@ -186,7 +186,7 @@ tic
 toc
 %% calculate top results
 clear variables
-load('R5Output_files_OTISR/OTIS_results_MC.mat')
+load('Output_files_OTISR/OTIS_results_MC.mat')
 tic
 behavioral(OTIS_hypercube_input,...
     Description1,Data,Instate,OOO,L,n,...
