@@ -132,7 +132,7 @@ fclose(discharge);
 
     %FOR A PC
     if OSFLAG==1
-        !otisr_v3.exe
+        !otisr_windows.exe
     end
 
     %FOR A UNIX/LINUX
